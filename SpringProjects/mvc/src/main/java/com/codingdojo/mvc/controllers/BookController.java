@@ -36,10 +36,4 @@ public class BookController
 		
 	}
 	
-	@GetMapping("/books/3")
-	public String index()
-	{
-		return "show.jsp";
-	}
-	
 }
